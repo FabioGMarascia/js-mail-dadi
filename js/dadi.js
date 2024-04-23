@@ -4,9 +4,9 @@ const n_pc = parseInt(Math.random() * 6 + 1);
 console.log(`Numero pc ${n_pc}`);
 
 if (n_user > n_pc) {
-	alert(`Ha vinto  l'utente!`);
+	console.log(`Ha vinto  l'utente!`);
 } else if (n_pc > n_user) {
-	alert(`Ha vinto  il pc!`);
+	console.log(`Ha vinto  il pc!`);
 } else {
-	alert(`Parità!`);
+	console.log(`Parità!`);
 }
